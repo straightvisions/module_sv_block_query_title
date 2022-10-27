@@ -1,6 +1,6 @@
 <?php
 	echo $_s->build_css(
-		'.wp-block-query-title',
+		'.wp-block-query > ul > li > .wp-block-post-title',
 		array_merge(
 			$module->get_setting('font')->get_css_data('font-family'),
 			$module->get_setting('font_size')->get_css_data('font-size','','px'),
@@ -11,3 +11,5 @@
 			$module->get_setting('border')->get_css_data()
 		)
 	);
+
+    echo "zelda";
